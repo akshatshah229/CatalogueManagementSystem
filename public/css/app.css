@@ -1,0 +1,361 @@
+/*Last Name: Shah
+First Name: Akshat
+UTA ID: 1001744567*/
+html,body{
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+}
+.navbar{
+	height: auto;
+	width: 100%;
+	padding: 0px;
+}
+
+.feed{
+	text-align: left;
+	height: 100%;
+	padding-left: 10%;
+}
+
+.Feedback-scroll{
+	overflow: scroll;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.Feedback-text-data{
+	width: 40%;
+	height: auto;
+	margin-left: 30%;
+	margin-bottom: 10px;
+	text-align: center;
+	border-style: solid;
+
+}
+
+.topnav{
+	width: 100%;
+	overflow: hidden;
+	background-color: black;
+	text-align: center;
+	margin: 0px;
+}
+
+.topnav a{
+  float: center;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: black;
+}
+
+.topnav a:hover{
+	background-color: #808080;
+	color: white;
+}
+
+.fafa{
+	opacity: 0.5;
+	background-color: white;
+	float: right;
+}
+
+.second-topnav{
+	width: 100%;
+	overflow: hidden;
+	background-color: #808080;
+	text-align: center;
+	margin: 0px;
+}
+
+.second-topnav a {
+  float: right;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: #808080;
+}
+
+.main-body{
+	height: 100%;
+	width: 100%;
+}
+
+.footer{
+	height: 14%;
+	width: 100%;
+}
+
+.body-header{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.body-header-home h1{
+	float: center;
+}
+
+.container{
+	height: auto;
+	width: 80%;
+	text-align: center;
+	padding-left: 10%;
+	margin-bottom: 5%;
+}
+.mainframe{
+	height: auto;
+	background-color: black;
+	color: white;
+	width: 30%;
+	display: inline-block;
+	margin-top: 5%;
+}
+
+.footer{
+	height: auto;
+	width: 100%;
+	background-color: black;
+	color: white;
+	margin-top: 5%: 
+}
+
+.about-container{
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding-left: 17%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	display: inline-block;
+}
+
+.img-container{
+	float: left;
+	height: auto;
+	width: 30%;
+}
+
+.text-container{
+	float: left;
+	height: auto;
+	width: 30%;
+}
+
+.forum-container{
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding-left: 35%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	display: inline-block;
+}
+
+.form-data {
+	height: auto;
+	width: 100%;
+	padding-left: 40%;
+}
+
+.button-form{
+	background-color: #808080;
+}
+
+.left-container{
+	width: auto;
+	height: auto;
+	text-align: center;
+	margin: 0px;
+	padding: 3px;
+	float:left;
+	display: inline-block;
+}
+
+.li-list-student {
+  width: 200px;
+}
+
+.li-list-student a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.li-list-student a:hover {
+  background-color: #ccc;
+}
+
+.li-list-student a.active {
+  background-color: grey;
+  color: white;
+}
+
+.right-container{
+	width: 50%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+.right-container-1{
+	width: 50%;
+	height: 100%;
+	float: center;
+	padding-left: 100%;
+	display: inline-block;
+}
+.student-container{
+	height: 600px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5%;
+	overflow: auto;
+}
+
+.image-container{
+	padding: 5px;
+	height: auto;
+	width: 80%;
+	display: inline-block;
+}
+
+.image-container img{
+	height: 100%;
+	width: 90%;
+}
+
+.feedback-textbox-container{
+	width: 50%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: 20%;
+}
+
+.feedback-textbox{
+	width: 100%;
+	height: 200px;
+}
+
+.staff-right-container{
+	width: 100%;
+	height: auto;
+	float: left;
+	display: inline-block;
+	height: auto;
+}
+
+.admin-right-container{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	height: auto;
+	overflow: scroll;
+}
+.staff-image-container{
+	padding: 5px;
+	height: auto;
+	width: 23%;
+	display: inline-block;
+}
+
+.staff-image-container img{
+	height: 80%;
+	width: 90%;
+}
+
+.upcoming-courses-button{
+	display: inline-block;
+	float: left;
+}
+.add-button{
+	width: 100%;
+	height: auto;
+}
+.button-form-add{
+	background-color: #808080;
+	width: 60%;
+	text-align: center;
+}
+.container-1{
+	overflow: auto;
+	height: auto;
+	float: left;
+	width: auto;
+	display: inline-block;
+}
+
+.container-2{
+	height: auto;
+	float: left;
+	width: auto;
+	display: inline-block;
+}
+@media screen and (max-width: 418px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  .second-topnav a{
+  	float: none;
+  	width: 100%;
+  }
+  .body-header-home{
+  	width: 100%;
+  }
+  .mainframe{
+  	height: auto;
+  	width: 100%;
+  }
+  .img-container{
+  	float: none;
+  	width: 100%;
+  	text-align: center;
+  }
+  .text-container{
+  	float: none;
+  	text-align: justify;
+  	width: 100%;
+  }
+  .about-container{
+  	padding-left: 0%;
+  }
+  .forum-container{
+  	padding-left: 0%;
+  }
+  .form-data{
+  	padding-left: 0%;
+  }
+  .left-container{
+  	float: none;
+  	width: 100%;
+  }
+  .li-list-student{
+  	width: 100%;
+  	padding: 0px;
+  }
+  .right-container{
+  	float: none;
+  	width: 100%;
+  }
+  .feedback-textbox-container{
+  	width: 100%;
+  	padding-left: 5px;
+  	padding-right: 5px;	
+  }
+  .feed{
+	text-align: left;
+	height: 100%;
+  }
+  .staff-right-container{
+  	float: none;
+  	width: 100%;
+  }
+}
+
